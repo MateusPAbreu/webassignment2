@@ -1,0 +1,40 @@
+/* Mobile design */
+@media only screen and (max-width:485px) {
+
+    #headerLinks {
+        width: 100%;
+    }
+
+    #links li {
+        display: inline-block;
+    }
+
+    #image {
+        height: 150%;
+        width: 120%;
+        border-radius: 15px;
+        /* z-index: 1; */
+    }
+
+    #presentation {
+        position: absolute;
+        z-index: 2;
+        left: auto;
+        top: 15%;
+        max-width: 80%;
+    }
+
+    /* Another Page */
+    #another_body {
+        background-image: url(images/blue_coral.jpg);
+        background-size: 120%;
+        background-repeat: repeat-y;
+    }
+
+    #another_body img {
+        /* The images do not fit the mobile style, so I decided to take them out. The text still fits the water theme of the page. */
+        display: none;
+    }
+
+
+}

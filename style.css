@@ -1,0 +1,114 @@
+/* First Page */
+/* Header */
+
+#image {
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+#links li {
+    display: inline-block;
+}
+
+#links li a {
+    display: block;
+    color: black;
+    margin: 0px -1px 0px -1px;
+    /*This way the borders are connected, there is no gap between them*/
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    /* border-right-style: none; */
+}
+
+#links li a:hover {
+    color: yellow;
+}
+
+p {
+    float: right;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Body */
+#first_body {
+    background-color: rgb(100, 152, 187);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#header {
+    position: absolute;
+    z-index: 1;
+}
+
+#presentation {
+    /* position: relative; */
+    /* z-index: 2; */
+    left: 610px;
+    top: 15px;
+    /* width: 30%; */
+    max-width: 35%;
+}
+
+#caption1 {
+    margin-top: -30px;
+    display: flex;
+    justify-content: end;
+}
+
+/* Second Page */
+/* As this assignment didn't require a lot of pages, I considered to be simpler to use one css file instead of two */
+#another_body {
+    background-image: url(images/blue_coral.jpg);
+    background-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-repeat:initial; */
+}
+
+#another_body a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+#another_body a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+#another_header {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+#surf {
+    float: right;
+    clear: left;
+}
+
+#diver {
+    float: right;
+    clear: right;
+}
+
+#surf,
+#diver {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    min-width: 250px;
+}
+
+#another_main_body p {
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    min-width: 300px;
+}

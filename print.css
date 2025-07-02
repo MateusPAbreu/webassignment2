@@ -1,0 +1,23 @@
+@media print{
+    /* First Page */
+    #headerLinks{
+        display: none;
+    }
+
+    #presentation{
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        padding-left: 310px;
+    }
+
+    /* Another Page */
+    #return{
+        display: none;
+    }
+
+    #another_main_body img{
+        height: 200px;
+        width: 300px;
+    }
+}
